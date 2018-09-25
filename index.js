@@ -1,3 +1,8 @@
+var a1 = {"\u041A\u0430\u0439\u0434\u0430\u043D \u043A\u0435\u043B\u0434\u0456\u04A3?",
+          "\u041B\u044F\u043B\u044F\u043C\u0435\u043D \u043F\u0443\u043A\u0438\u043C\u0435\u043D?"
+
+};
+
 var json = {
     title: "American History",
     showProgressBar: "bottom",
@@ -11,7 +16,7 @@ var json = {
             questions: [
                 {
                     type: "html",
-                    html: "\u049A\u0430\u0437\u0430\u049B \u0442\u0456\u043B\u0456\u043D\u0435\u043D \u0442\u0435\u0441\u0442. "
+                    html: a1[Math.floor(Math.random() *obj_keys.length)]
                 }
             ]
         }, {
