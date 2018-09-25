@@ -83,7 +83,7 @@ var json = {
                     type: "radiogroup",
                     name: "5",
                     title: "\u0415\u0442\u0456\u0441\u0442\u0456\u043A \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
-                    choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
+                    choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
                     ]
                 }
             ]
