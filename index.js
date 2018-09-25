@@ -61,24 +61,14 @@ var json = {
                         "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
                     ]
  
-                }
-
-            ]
-        }, {
-            questions: [
-                {
+                }, {
                           
                     type: "radiogroup",
                     name: "4",
                     title: "\u0415\u0441\u0456\u043C\u0434\u0456\u043A \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
                     ]
-                }
-            ]
-        }, 
-               {
-            questions: [
-                {
+                }, {
                           
                     type: "radiogroup",
                     name: "5",
@@ -86,54 +76,10 @@ var json = {
                     choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
                     ]
                 }
+
             ]
-        }, 
-               {
-            questions: [
-                {
-                          
-                    type: "radiogroup",
-                    name: "6",
-                    title: "\u04AE\u0441\u0442\u0435\u0443 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
-                    choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
-                    ]
-                }
-            ]
-        }, 
-               {
-            questions: [
-                {
-                          
-                    type: "radiogroup",
-                    name: "7",
-                    title: "\u0415\u043B\u0456\u043A\u0442\u0435\u0443 \u0441\u04E9\u0437 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
-                    choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
-                    ]
-                }
-            ]
-        }, 
-               {
-            questions: [
-                {
-                          
-                    type: "radiogroup",
-                    name: "8",
-                    title: "\u0428\u044B\u043B\u0430\u0443 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
-                    choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
-                    ]
-                }
-            ]
-        }, 
-               {
-            questions: [
-                {
-                          
-                    type: "radiogroup",
-                    name: "9",
-                    title: "\u041E\u0434\u0430\u0493\u0430\u0439 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
-                    choices: [rnd(noun), rnd(adj), rnd(verb), rnd(ust)
-                    ]
-                }]}],
+        }
+     ],
     completedHtml: "<h4>You have answered correctly.</h4>"
 };
 
