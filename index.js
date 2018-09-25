@@ -1,7 +1,3 @@
-Survey
-    .StylesManager
-    .applyTheme("default");
-
 var json = {
     title: "American History",
     showProgressBar: "bottom",
@@ -18,7 +14,7 @@ var json = {
                     html: "You are about to start quiz by history. <br/>You have 10 seconds for every page and 25 seconds for the whole survey of 3 questions.<br/>Please click on <b>'Start Quiz'</b> button when you are ready."
                 }
             ]
-        }, {areQuestionsRandomized(): true, 
+        }, {
             questions: [
                 {
                     type: "radiogroup",
@@ -28,7 +24,10 @@ var json = {
                         "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
                     ],
                     correctAnswer: "1850-1900"
-                },
+                }
+            ]
+        }, {
+            questions: [
                 {
                     type: "radiogroup",
                     name: "libertyordeath",
@@ -38,8 +37,13 @@ var json = {
                         "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
                     ],
                     correctAnswer: "Patrick Henry"
-                },
-                {type: "radiogroup",
+                }
+            ]
+        }, {
+            maxTimeToFinish: 15,
+            questions: [
+                {
+                    type: "radiogroup",
                     name: "magnacarta",
                     title: "What is the Magna Carta?",
                     choicesOrder: "random",
@@ -49,8 +53,8 @@ var json = {
                     correctAnswer: "The foundation of the British parliamentary system"
                 }
             ]
-      
-            ]
+        }
+    ],
     completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>"
 };
 
