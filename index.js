@@ -195,8 +195,13 @@ var json = {
                     name: "21", 
                     title: "\u0410\u0443\u044B\u0441\u043F\u0430\u043B\u044B \u04E9\u0442\u043A\u0435\u043D \u0448\u0430\u049B\u0442\u0430\u0493\u044B \u0435\u0442\u0456\u0441\u0442\u0456\u043A:", 
                     choices: [ rnd(bo), rnd(bk), rnd(aou)/**/, rnd(zo)] 
+                },
+                {
+                type: "radiogroup", 
+                    name: "22", 
+                    title: "\u0411\u043E\u043B\u0436\u0430\u043C\u0434\u044B \u043A\u0435\u043B\u0435\u0440 \u0448\u0430\u049B\u0442\u0430\u0493\u044B \u0435\u0442\u0456\u0441\u0442\u0456\u043A:", 
+                    choices: [rnd(bk)/**/, rnd(bo), rnd(aou), rnd(zo)]
                 }
-
             ]
         }
      ],
