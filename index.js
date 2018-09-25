@@ -19,7 +19,7 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "civilwar",
-                    title: "When was the Civil War?",
+                    title: "Неге ариса ба вакада болады?",
                     choices: [
                         "1750-1800", "1800-1850", "1850-1900", "1900-1950", "after 1950"
                     ],
