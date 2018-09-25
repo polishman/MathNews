@@ -119,43 +119,43 @@ var json = {
                     type: "radiogroup", 
                     name: "10",
                     title: "\u0410\u0442\u0430\u0443 \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(at)/***/, rnd(br), rn(il), rn(sh)]
+                    choices: [rnd(at)/***/, rnd(br), rnd(il), rnd(sh)]
                 },
                  {
                     type: "radiogroup", 
                     name: "11",
                     title: "\u0406\u043B\u0456\u043A \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(at), rnd(br), rn(il)/***/, rn(sh)]
+                    choices: [rnd(at), rnd(br), rnd(il)/***/, rnd(sh)]
                 },
                  {
                     type: "radiogroup", 
                     name: "12",
                     title: "\u0411\u0430\u0440\u044B\u0441 \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(at), rnd(br)/***/, rn(il), rn(sh)]
+                    choices: [rnd(at), rnd(br)/***/, rnd(il), rnd(sh)]
                 },
                  {
                     type: "radiogroup", 
                     name: "13",
                     title: "\u0422\u0430\u0431\u044B\u0441 \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(tb)/***/, rnd(br), rn(il), rn(sh)]
+                    choices: [rnd(tb)/***/, rnd(br), rnd(il), rnd(sh)]
                 },
                  {
                     type: "radiogroup", 
                     name: "14",
                     title: "\u0416\u0430\u0442\u044B\u0441 \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(at), rnd(br), rn(il), rn(zh)/**/]
+                    choices: [rnd(at), rnd(br), rnd(il), rnd(zh)/**/]
                 }
                 , {
                     type: "radiogroup", 
                     name: "15",
                     title: "\u0428\u044B\u0493\u044B\u0441 \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(at), rnd(br), rn(il), rn(sh)/**/]
+                    choices: [rnd(at), rnd(br), rnd(il), rnd(sh)/**/]
                 },
                  {
                     type: "radiogroup", 
                     name: "16",
                     title: "\u041A\u04E9\u043C\u0435\u043A\u0442\u0435\u0441 \u0441\u0435\u043F\u0442\u0456\u043A\u0442\u0435\u0433\u0456 \u0437\u0430\u0442 \u0435\u0441\u0456\u043C\u0434\u0456 \u0442\u0430\u04A3\u0434\u0430\u043D\u044B\u0437:", 
-                    choices: [rnd(km)/***/, rnd(br), rn(il), rn(sh)]
+                    choices: [rnd(km)/***/, rnd(br), rnd(il), rnd(sh)]
                 }
                 
 
