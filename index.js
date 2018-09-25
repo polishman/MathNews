@@ -36,7 +36,7 @@ var json = {
                     name: "civilwar",
                     title: "\u0417\u0430\u0442 \u0435\u0441\u0456\u043C \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }, {
@@ -47,7 +47,7 @@ var json = {
                     title: "\u0421\u044B\u043D \u0435\u0441\u0456\u043C \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?", 
                     choices: [
                         "John Hancock", "James Madison", "Patrick Henry", "Samuel Adams"
-                    ],
+                    ]
                 }
             ]
         }, {
@@ -59,7 +59,7 @@ var json = {
                     title: "\u0421\u0430\u043D \u0435\u0441\u0456\u043C \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [
                         "The foundation of the British parliamentary system", "The Great Seal of the monarchs of England", "The French Declaration of the Rights of Man", "The charter signed by the Pilgrims on the Mayflower"
-                    ],
+                    ]
  
                 }
             ], 
@@ -73,7 +73,7 @@ var json = {
                     name: "civilwar",
                     title: "\u0415\u0441\u0456\u043C\u0434\u0456\u043A \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }, 
@@ -85,7 +85,7 @@ var json = {
                     name: "civilwar",
                     title: "\u0415\u0442\u0456\u0441\u0442\u0456\u043A \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }, 
@@ -97,7 +97,7 @@ var json = {
                     name: "civilwar",
                     title: "\u04AE\u0441\u0442\u0435\u0443 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }, 
@@ -109,7 +109,7 @@ var json = {
                     name: "civilwar",
                     title: "\u0415\u043B\u0456\u043A\u0442\u0435\u0443 \u0441\u04E9\u0437 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }, 
@@ -121,7 +121,7 @@ var json = {
                     name: "civilwar",
                     title: "\u0428\u044B\u043B\u0430\u0443 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }, 
@@ -133,7 +133,7 @@ var json = {
                     name: "civilwar",
                     title: "\u041E\u0434\u0430\u0493\u0430\u0439 \u0441\u04E9\u0437 \u0442\u0430\u0431\u044B\u043D\u0430 \u043D\u0435 \u0436\u0430\u0442\u0430\u0434\u044B?",
                     choices: [rnd(noun), rnd(adj), rnd(verb), rns(ust)
-                    ],
+                    ]
                 }
             ]
         }     
