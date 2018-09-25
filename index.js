@@ -16,7 +16,7 @@ var json = {
             questions: [
                 {
                     type: "html",
-                    html: a1[Math.floor(Math.random() *obj_keys.length)]
+                    html: a1[Math.floor(Math.random() *a1.length)]
                 }
             ]
         }, {
