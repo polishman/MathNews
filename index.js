@@ -223,7 +223,7 @@ var json = {
                 title:"\u041A\u04E9\u043F\u0442\u0456\u043A \u0436\u0430\u043B\u0493\u0430\u0443\u0434\u044B \u0430\u04A3\u044B\u049B\u0442\u0430\u04A3\u044B\u0437:", 
                 choices:[rnd(kz), rnd(zz)]}, 
                 {type: "radiogroup", 
-                name: "25", 
+                name: "26", 
                 title:"\u0416\u0456\u043A\u0442\u0456\u043A \u0436\u0430\u043B\u0493\u0430\u0443\u0434\u044B \u0430\u04A3\u044B\u049B\u0442\u0430\u04A3\u044B\u0437:", 
                 choices:[rnd(zz), rnd(kz)]}
 
