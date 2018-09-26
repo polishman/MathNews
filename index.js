@@ -2,7 +2,7 @@ Survey
     .StylesManager
     .applyTheme("default");
 
-var noun=["\u0441\u04E9\u0437"]; 
+var noun=["\u0441\u04E9\u0437", "\u043A\u04E9\u0437", "\u0442\u04AF\u0439\u0435", "\u0436\u043E\u043B"]; 
 var adj=["\u04D8\u0434\u0435\u043C\u0456"]; 
 var numerl=["\u0411\u0456\u0440\u0456\u043D\u0448\u0456"]; 
 var pron=["\u041C\u0435\u043D"];
@@ -18,15 +18,15 @@ var br=["\u0435\u04A3\u0431\u0435\u043A\u043A\u0435"];
 var tb=["\u0435\u04A3\u0431\u0435\u043A\u0442\u0456"];
 var zh=["\u0435\u04A3\u0431\u0435\u043A\u0442\u0435"];
 var sh=["\u0435\u04A3\u0431\u0435\u043A\u0442\u0435\u043D"];
-var km=["\u0435\u04A3\u0431\u0435\u043A\u043F\u0435\u043D"];
+var km=["\u0435\u04A3\u0431\u0435\u043A\u043F\u0435\u043D", ];
 
-var no=["\u043A\u0435\u043B\u0456\u043F \u0436\u0430\u0442\u044B\u0440"];
-var ao=["\u043A\u0435\u043B\u0435\u0434\u0456"];
-var zo=["\u043A\u0435\u043B\u0434\u0456"];
-var bo=["\u043A\u0435\u043B\u0433\u0435\u043D"];
-var aou=["\u043A\u0435\u043B\u0435\u0442\u0456\u043D"];
-var bk=["\u043A\u0435\u043B\u0435\u0440"];
-var mk=["\u043A\u0435\u043B\u043C\u0435\u043A"]; 
+var no=["\u043A\u0435\u043B\u0456\u043F \u0436\u0430\u0442\u044B\u0440", "\u043A\u04E9\u0440\u0456\u043F \u0436\u0430\u0442\u044B\u0440"];
+var ao=["\u043A\u0435\u043B\u0435\u0434\u0456", "\u0436\u0430\u0437\u0430\u0434\u044B"];
+var zo=["\u043A\u0435\u043B\u0434\u0456", "\u049B\u0430\u0440\u0430\u0441\u0442\u044B\u0440\u0434\u044B"];
+var bo=["\u043A\u0435\u043B\u0433\u0435\u043D", "\u0437\u0435\u0440\u0442\u0442\u0435\u0433\u0435\u043D"];
+var aou=["\u043A\u0435\u043B\u0435\u0442\u0456\u043D", "\u0442\u0430\u043B\u0434\u0430\u0439\u0442\u044B\u043D"];
+var bk=["\u043A\u0435\u043B\u0435\u0440", "\u0437\u0435\u0440\u0442\u0442\u0435\u0433\u0435\u043D"];
+var mk=["\u043A\u0435\u043B\u043C\u0435\u043A", "\u043E\u0442\u044B\u0440\u043C\u0430\u049B"]; 
 
 var verbsa=["\u0436\u0430\u0441\u0430\u0441\u0430"];
 
@@ -42,10 +42,9 @@ var json = {
     title: "American History",
     showProgressBar: "bottom",
     showTimerPanel: "top",
-    maxTimeToFinishPage: 10,
-    maxTimeToFinish: 25,
+    maxTimeToFinish: 600,
     firstPageIsStarted: true,
-    startSurveyText: "Start Quiz",
+    startSurveyText: "\u049A\u0430\u0437\u0430\u049B \u0442\u0456\u043B\u0456\u043D\u0456\u04A3 \u0441\u0438\u043D\u0442\u0430\u043A\u0441\u0438\u0441\u0456 \u043C\u0435\u043D \u043C\u043E\u0440\u0444\u043E\u043B\u043E\u0433\u0438\u044F\u0441\u044B \u0431\u043E\u0439\u044B\u043D\u0448\u0430 \u0442\u0435\u0441\u0442 (\u0442\u0435\u0441\u0442\u0442\u0456\u04A3 \u0441\u043E\u04A3\u044B\u043D\u0434\u0430 \u0436\u0430\u0443\u0430\u043F\u0442\u0430\u0440\u044B \u043A\u04E9\u0440\u0441\u0435\u0442\u0456\u043B\u0435\u0434\u0456).",
     pages: [
         {
             questions: [
@@ -231,7 +230,33 @@ var json = {
             ]
         }
      ],
-    completedHtml: "<h4>You have answered correctly.</h4>"
+    completedHtml: "<h4>Жауаптар:<br>
+                        1. 1 <br>
+                        2. 3  <br> 
+                        3. 3 <br>
+                        4. 4  <br>
+                        5. 3  <br> 
+                        6. 4 <br> 
+                        7. 1 <br> 
+                        8. 2 <br> 
+                        9. 1 <br>
+                        10. 1 <br> 
+                        11. 3 <br>
+                        12. 2 <br> 
+                        13. 1 <br> 
+                        14. 4 <br> 
+                        15. 4  <br> 
+                        16. 1 <br>
+                        17. 1 <br> 
+                        18. 1<br> 
+                        19. 2<br>
+                        20. 1<br>
+                        21. 3<br>
+                        22. 1<br>
+                        23. 1<br>
+                        24. 2<br>
+                        25. 1<br>
+                        26. 1<br></h4>"
 };
 
 window.survey = new Survey.Model(json);
