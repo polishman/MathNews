@@ -44,7 +44,7 @@ var json = {
     showTimerPanel: "top",
     maxTimeToFinish: 600,
     firstPageIsStarted: true,
-    startSurveyText: "Тестті бастау",
+    startSurveyText: "\u0422\u0435\u0441\u0442\u0442\u0456 \u0431\u0430\u0441\u0442\u0430\u0443",
     pages: [
         {
             questions: [
