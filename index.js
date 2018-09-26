@@ -31,7 +31,7 @@ var mk=["\u043A\u0435\u043B\u043C\u0435\u043A", "\u043E\u0442\u044B\u0440\u043C\
 var verbsa=["\u0436\u0430\u0441\u0430\u0441\u0430"];
 
 var kz=["-\u043B\u0430\u0440"];
-var zz=["\u0441\u0456\u04A3"];
+var zz=["-\u0441\u0456\u04A3"];
 
 
 function rnd(a) {
