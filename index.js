@@ -230,7 +230,7 @@ var json = {
             ]
         }
      ],
-    completedHtml: "<h4>Жауаптар:<br> 1. 1 <br> 2. 3  <br> 3. 3 <br> 4. 4  <br> 5. 3  <br> 6. 4 <br> 7. 1 <br> 8. 2 <br> 9. 1 <br> 10. 1 <br> 11. 3 <br> 12. 2 <br> 13. 1 <br> 14. 4 <br> 15. 4  <br> 16. 1 <br> 17. 1 <br> 18. 1<br> 19. 2<br> 20. 1<br> 21. 3<br> 22. 1<br> 23. 1<br> 24. 2<br> 25. 1<br> 26. 1<br></h4>"
+    completedHtml: "<h4>\u0416\u0430\u0443\u0430\u043F\u0442\u0430\u0440:<br> 1. 1 <br> 2. 3  <br> 3. 3 <br> 4. 4  <br> 5. 3  <br> 6. 4 <br> 7. 1 <br> 8. 2 <br> 9. 1 <br> 10. 1 <br> 11. 3 <br> 12. 2 <br> 13. 1 <br> 14. 4 <br> 15. 4  <br> 16. 1 <br> 17. 1 <br> 18. 1<br> 19. 2<br> 20. 1<br> 21. 3<br> 22. 1<br> 23. 1<br> 24. 2<br> 25. 1<br> 26. 1<br></h4>"
 };
 
 window.survey = new Survey.Model(json);
