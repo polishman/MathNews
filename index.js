@@ -2,7 +2,7 @@ Survey
     .StylesManager
     .applyTheme("default");
 
-var noun=["\u0421\u04E9\u0437"]; 
+var noun=["\u0441\u04E9\u0437"]; 
 var adj=["\u04D8\u0434\u0435\u043C\u0456"]; 
 var numerl=["\u0411\u0456\u0440\u0456\u043D\u0448\u0456"]; 
 var pron=["\u041C\u0435\u043D"];
