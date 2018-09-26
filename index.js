@@ -39,7 +39,7 @@ return a[Math.floor(Math.random()*a.length)];
 }
 
 var json = {
-    title: "American History",
+    title: "\u0421\u0438\u043D\u0442\u0430\u043A\u0441\u0438\u0441 \u043C\u0435\u043D \u043C\u043E\u0440\u0444\u043E\u043B\u043E\u0433\u0438\u044F",
     showProgressBar: "bottom",
     showTimerPanel: "top",
     maxTimeToFinish: 600,
