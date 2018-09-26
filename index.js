@@ -214,7 +214,7 @@ var json = {
                 {type:"radiogroup",
                  name: "24", 
                  title:"\u0414\u0430\u0440\u0430 \u0441\u04E9\u0439\u043B\u0435\u043C\u0434\u0456 \u0442\u0430\u0431\u044B\u04A3\u044B\u0437 (\u0436\u0430\u0443\u0430\u043F \u043D\u04B1\u0441\u049B\u0430\u043B\u0430\u0440\u044B \u043C\u04D9\u043D\u043C\u04D9\u0442\u0456\u043D\u043D\u0435\u043D \u0442\u04D9\u0443\u0435\u043B\u0441\u0456\u0437 \u0433\u0440\u0430\u043C\u043C\u0430\u0442\u0438\u043A\u0430 \u0430\u0440\u049B\u044B\u043B\u044B \u049B\u04B1\u0440\u044B\u043B\u0430\u0434\u044B, \u0441\u0435\u043C\u0430\u043D\u0442\u0438\u043A\u0430 \u049B\u0430\u0442\u0435 \u0431\u043E\u043B\u0443\u044B \u043C\u04AF\u043C\u043A\u0456\u043D): ",
-                 choices: [rnd(noun)+" "+rnd(aou)+", \u0441\u043E\u043D\u0434\u044B\u049B\u0442\u0430\u043D \u043E\u043B "+rnd(aou), rnd(noun)+" "+rnd(ao), rnd(noun)+" "+rnd(bo)+", \u044F\u0493\u043D\u0438 "+rnd(noun)+" "+rnd(bo), "\u043E\u043B "+rnd(verbsa)+", "+rnd(noun)+rnd(bk)]
+                 choices: [rnd(noun)+" "+rnd(aou)+", \u0441\u043E\u043D\u0434\u044B\u049B\u0442\u0430\u043D \u043E\u043B "+rnd(aou), rnd(noun)+" "+rnd(ao), rnd(noun)+" "+rnd(bo)+", \u044F\u0493\u043D\u0438 "+rnd(noun)+" "+rnd(bo), "\u043E\u043B "+rnd(verbsa)+", "+rnd(noun)+" "+rnd(bk)]
                 }
 
             ]
